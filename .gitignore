@@ -88,15 +88,8 @@ target/
 # Mypy cache
 .mypy_cache/
 
-# Gudhi notebooks
-notebooks/gudhi_tutorials/
-
-# singularity files
-/singularity/
-/base/
-
-# HPC files
-/pgx-lewis/
+# notebooks
+notebooks/
 
 # ignore trash
 /src/trash/
