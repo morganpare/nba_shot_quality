@@ -3,6 +3,13 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 def scrape_player_advanced_stats(year=2014,project_path='/home/mpare/src/nba_shot_quality'):
+    '''
+        Function to scrape the player advanced stats from basketball reference
+
+        arguments:
+        year = year to scrape
+        project_path = path of the project directory
+    '''
     # URL page we will scraping
     url = "https://www.basketball-reference.com/leagues/NBA_{}_advanced.html".format(year)
     # this is the HTML from the given URL
